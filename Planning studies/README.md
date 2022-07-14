@@ -1,4 +1,4 @@
-Procedure
+Procedure for setting up the plans for the PEARL planning study
 Scripting:
 1. Before running the scripts
 	a. Check ROI names match screenshot
