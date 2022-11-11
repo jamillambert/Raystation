@@ -1,11 +1,11 @@
-Procedure for setting up the plans for the PEARL planning study
-Scripting:
+## Procedure for setting up the plans for the PEARL planning study
+### Scripting:
 1. Before running the scripts
-	a. Check ROI names match screenshot
-	b. Check CTs are named "CT 1" and "CT 2"
-	c. Register the two CTs
-	d. Create two Boxs named "Inf_Box" and "Sup_Box" on CT 1 that contain the regions to be used for the superior section and inferior sections of the targets, the two should overlap by at least 4cm to create a gradient junction. 
-	e. Copy "Inf_Box" and "Sup_Box" across to CT 2 and adjust as necessary
+	- Check ROI names match screenshot
+	- Check CTs are named "CT 1" and "CT 2"
+	- Register the two CTs
+	- Create two Boxs named "Inf_Box" and "Sup_Box" on CT 1 that contain the regions to be used for the superior section and inferior sections of the targets, the two should overlap by at least 4cm to create a gradient junction. 
+	- Copy "Inf_Box" and "Sup_Box" across to CT 2 and adjust as necessary
 2. Run Pearl_ROI.py
 3. Check created ROIs look reasonable and then set CT 2 as the primary
 4. Run Pearl_ROI_CT2_update.py
